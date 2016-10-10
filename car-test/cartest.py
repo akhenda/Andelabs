@@ -120,9 +120,6 @@ class CarClassTest(unittest.TestCase):
                              msg='The car drive function should return the instance of the Car class')
 
 
-
-
-
 def main():
 	unittest.main()
 
