@@ -19,8 +19,8 @@ class Car(object):
 	@property
 	def num_of_doors(self):
 		if self.name == "Porshe" or self.name == "Koenigsegg":
-			print 2
-		print 4
+			return 2
+		return 4
 
 	@property
 	def num_of_wheels(self):
