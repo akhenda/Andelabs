@@ -1,0 +1,9 @@
+# Binary Search Lab
+
+First, we were to create a BinarySearch class, that inherits from the list class the following:
+
+the `__init__()` takes ...
+
+Once done, we were to create another method called search, which just takes one argument, the value are to be found. The search function should return a dictionary object, which contains count....
+
+The search method should implement the binary search algorithm...
