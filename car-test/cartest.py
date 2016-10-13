@@ -34,10 +34,10 @@ class Car(object):
 		return False
 
 	def drive(self, i=None):
-		if self.name == "Mercedes":
+		if self.name == "Mercedes" or self.type == "saloon":
 			self.speed = 1000
-		elif self.type == "trailer":
+		elif self.type == "trailer" or self.type == "trailer":
 			self.speed = 77
 		else:
-			self.speed = 72
+			self.speed = 72 # Just making sure we change the speed as long as the car is being driven
 		return self
